@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #48bcff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the cart section */
+#carrito-items h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #48bcff;
+}
+
+ul#lista-carrito {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#lista-carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+ul#lista-carrito li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ul#lista-carrito li button:hover {
+    background-color: #d32f2f;
+}
+
+/* Total section */
+p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: right;
+}
+
+p span {
+    font-weight: bold;
+    color: #48bcff;
+}
+
+/* Finalizar compra button */
+#finalizar-compra {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #48bcff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#finalizar-compra:hover {
+    background-color: #2273a1;
+}
+
+#finalizar-compra:active {
+    background-color: #2273a1;
+}
+
+#finalizar-compra:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
